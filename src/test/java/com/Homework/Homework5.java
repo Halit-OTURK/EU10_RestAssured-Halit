@@ -1,8 +1,9 @@
 package com.Homework;
 
 
-import com.cydeo.pojo.Spartan;
-import com.cydeo.utilities.SpartanTestBase;
+
+import com.cybertek.Pojo.Spartan;
+import com.cybertek.utilities.SpartanTestBase;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
