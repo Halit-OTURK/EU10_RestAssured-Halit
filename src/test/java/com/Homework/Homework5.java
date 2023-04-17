@@ -2,21 +2,17 @@ package com.Homework;
 
 
 
-import com.cybertek.Pojo.Spartan;
-import com.cybertek.utilities.SpartanTestBase;
+import com.cydeo.Pojo.Spartan;
+import com.cydeo.utilities.SpartanTestBase;
 import io.restassured.http.ContentType;
-import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.Matchers.*;
 
 import static io.restassured.RestAssured.*;
-import static org.junit.jupiter.api.Assertions.*;
 
 public class Homework5 extends SpartanTestBase {
 

@@ -3,7 +3,7 @@ package com.Homework;
 
 
 
-import com.cybertek.Pojo.F1Drivers;
+import com.cydeo.Pojo.F1Drivers;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -17,7 +17,7 @@ import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.Matchers.*;
 
 import static io.restassured.RestAssured.*;
-import static org.junit.jupiter.api.Assertions.*;
+
 public class Homework4 {
 
     @BeforeAll
